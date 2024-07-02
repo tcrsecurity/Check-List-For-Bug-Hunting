@@ -1,0 +1,127 @@
+live Hunting Session
+
+
+Today we will learn how we can attack a live website with all atacks which we learn previously
+
+
+1. Some common bugs:
+
+
+   > Open redirect
+   > Username Enumeration
+   > Exif geolocation not stripped
+   > HTTP in login or registration
+   > Failer to invalidate session after password change 
+   > NO rate limiting
+   > WAF Bypass
+   > Lack of password confirmation on delete account
+   > Zone transfer
+   > Using default creds or register with @company.com
+   > Sensitive Data Exposure
+   > this test case 
+
+
+2. Authentication Testing:
+
+   > 2FA Bypass
+   > OTP Brute Force
+   > Password Reset logic
+   > Write it here
+
+
+3. Oauth2.0 Bugs:
+
+   > Oauth Login CSRF
+   > Connect CSRF
+   > Redirect URI
+   > Pre Account Takeover
+
+
+4. JWT Bugs:
+
+   > Unverified Signature
+   > None Algorithm Accepted
+   > HS256 alg can be bruteforced
+
+
+5. Broken Access Controls:
+
+   > Always check sensitive URLs and try to access them
+   > Try to understand JavaScript Even you donot know javascript just try see , may be you find something intresting
+   > If you find app is using admin=true or 1 and admin=false or 0 then alway try exploit it
+   > Sometimes application is leaking data in redirect
+   > Check for IDOR if application is using ID params for accessing users data
+   > If GET method is not working try other methods vice-versa
+   > If application is using multi step, try to exploit every step.
+
+
+6. Server Side Request Forgery ( SSRF )
+ 
+   > SSRF against local system both 127.0.0.1 and 192.168.0.1
+   > SSRF against blacklist bypass filter
+   > SSRF to XSS 
+   > SSRF to Remote Code Execution
+   > SSRF to Port Scanning
+   > SSRF to metadata
+
+
+7.  Directory Traversal 
+
+   > Simple check
+   > dot dot slash
+   > Double dot dot slash
+   > Encoding and bypass techniqes
+   > NUll Byte for bypass
+   > Automation (dotdotpwn and lfisuite)
+
+
+8. Cross Origin Resourece Sharing 
+
+   > Simple case 
+   > NUll Origin accepting
+   > Subdomain Accepting
+
+
+9. Host Header Attacks
+
+   > Try to access (127.0.0.1 or 192.168.0.1)
+   > Password reset 
+   > Cache Poisoning
+
+
+10. Cross Site Scripting (XSS)
+
+   > Simple XSS
+   > Encoding
+   > Payload Fixing (AI)
+   > POST Based XSS to reflected XSS
+   > Automation
+
+
+11. Cross Site Request Forgery
+   
+   > simple csrf
+   > Request method change 
+   > CSRF token reuse and remove and others
+   > Brute force csrf token
+
+
+12. Command Injection
+
+   > Command Chaining Operators ; & | || &&
+   > sleep 10
+   > nslookup burp_collab
+
+
+
+
+13. File Upload bugs
+
+   > Check filename bypass
+   > Check Content-Type 
+   > Chekc file content type bypass
+   > Path traversal to other dir
+   > Encoding
+
+
+14. 
