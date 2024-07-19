@@ -1,7 +1,16 @@
+
 live Hunting Session
 
 
-Today we will learn how we can attack a live website with all atacks which we learn previously
+
+
+Suggestions:
+
+
+ >>>>> Try to get urls (endpoint) as much as you can
+ >>>>> 
+
+
 
 
 1. Some common bugs:
@@ -18,6 +27,7 @@ Today we will learn how we can attack a live website with all atacks which we le
    > Zone transfer
    > Using default creds or register with @company.com
    > Sensitive Data Exposure
+   > this test case 
 
 
 2. Authentication Testing:
@@ -110,9 +120,7 @@ Today we will learn how we can attack a live website with all atacks which we le
    > Command Chaining Operators ; & | || &&
    > sleep 10
    > nslookup burp_collab
-
-
-
+   
 
 13. File Upload bugs
 
@@ -123,4 +131,98 @@ Today we will learn how we can attack a live website with all atacks which we le
    > Encoding
 
 
-14. 
+14. XXE (XML External Entiry) Injection
+   
+   > change json to xml
+   > XXE to lfi
+   > XXE to ssrf meta-data 
+   > XXE to ssrf auth by pass
+   > XXE out of band techniqu
+
+
+
+15. Web Sockets Hacking
+
+   > We can input validation bugs
+   > XSS
+   > Web Socket Hijacking
+   
+
+
+16. AWS Pentesting
+
+   > S3 bucket listing to everyone
+   > S3 bucket listing to authenticated user
+   > S3 Bucket delete
+   > Object delete on S3 bucket
+   > File upload on S3 bucket
+   > Keys in js file try to configure AWS cli
+   > AWS account then try to find user details
+   > Try to find snapshots or other details
+
+
+
+17. SQL Injection
+
+
+
+18. GraphQL API bugs
+
+
+
+18. API Pentesting
+
+
+
+19. Automation
+
+
+
+
+20. Live Hunting Sessions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
