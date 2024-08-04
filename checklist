@@ -1,4 +1,3 @@
-
 live Hunting Session
 
 
@@ -148,7 +147,6 @@ Suggestions:
    > Web Socket Hijacking
    
 
-
 16. AWS Pentesting
 
    > S3 bucket listing to everyone
@@ -161,68 +159,34 @@ Suggestions:
    > Try to find snapshots or other details
 
 
+17. Subdomain Takeover 
 
-17. SQL Injection
-
-
-
-18. GraphQL API bugs
-
-
-
-18. API Pentesting
+   > Github takeover
+   > AWS takeover
+   > Azure takeover
+   > others
+   > https://godiego.co/posts/STO-Azure/
+   > https://github.com/EdOverflow/can-i-take-over-xyz
 
 
-
-19. Automation
+18. SQL Injection
+   > 
 
 
 
+19. GraphQL API bugs
 
-20. Live Hunting Sessions
-
-
-
-
-
-
-
-
+   > Detecting GraphQL
+   > Introspection is on or off
+   > If on then fetch data and use http://nathanrandal.com/graphql-visualizer/ and https://graphql-kit.com/graphql-voyager/
+   > Try to find sensitive data and IDOR 
+   > If off then manualy browse the app try to understand the app from error
+   > Check for SQL Injection
 
 
 
+20. API Pentesting
 
+   >  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+21. Automation
